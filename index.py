@@ -16,7 +16,7 @@ def handler(event, context):
     # 实例化对应的类
     MethodClass = class_name()
     # 完成业务，返回数据
-    content = MethodClass.handler(method, data)
+    content = MethodClass.handler(data)
     # 组织业务数据
     rep = {
         "isBase64Encoded": "False",
