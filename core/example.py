@@ -4,5 +4,5 @@ class example():
         pass
 
     def handler(self, data):
-        content = data
+        content = {"code":"0000","data":data}
         return content
