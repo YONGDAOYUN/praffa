@@ -10,6 +10,7 @@ def handler(event, context):
     # 接收到网关传递函数关键变量
     method = event['queryParameters']['method']
     data = (base64.b64decode(event['body'].encode('utf-8'))).decode()
+    data = json.loads(data)
     # 根据不同的METHOD调用不同类库完成业务
     class_dir = method + '.'
     class_name = eval(class_dir + method)
