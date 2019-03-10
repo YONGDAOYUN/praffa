@@ -24,4 +24,7 @@ Python Restful Api Farmwok For Aliyun的首字母简写。是一款针对阿里�
 ![12保存API设定](https://cdn.yongdaoyun.com/pub/images/praffa/12.png "12保存API设定")
 ![13发布API到测试](https://cdn.yongdaoyun.com/pub/images/praffa/13.png "13发布API到测试")
 ![14调试API](https://cdn.yongdaoyun.com/pub/images/praffa/14.png "14调试API")
-![15调试成功](https://cdn.yongdaoyun.com/pub/images/praffa/15.png "15调试成功")
+![15调试成功](https://cdn.yongdaoyun.com/pub/images/praffa/15.png "15调试成功")  
+# 我的联系方式
+微信：  
+![微信](https://cdn.yongdaoyun.com/pub/images/praffa/wx.jpg "微信") 
