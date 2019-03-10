@@ -8,12 +8,12 @@ from method import *
 def handler(event, context):
     event = json.loads(event)
     # 接收到网关传递函数关键变量
-    method = event['queryParameters']['method']
+    queryMethod = event['queryParameters']['method']
     data = (base64.b64decode(event['body'].encode('utf-8'))).decode()
     data = json.loads(data)
     # 根据不同的METHOD调用不同类库完成业务
-    class_dir = method + '.'
-    class_name = eval(class_dir + method)
+    class_dir = queryMethod + '.'
+    class_name = eval(class_dir + queryMethod)
     # 实例化对应的类
     MethodClass = class_name()
     # 完成业务，返回数据
