@@ -2,7 +2,7 @@
 # 引入包
 import json
 import base64
-from core import *
+from method import *
 
 # 主启动函数
 def handler(event, context):
