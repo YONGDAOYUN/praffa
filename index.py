@@ -18,7 +18,7 @@ def handler(event, context):
     MethodClass = class_name()
     # 完成业务，返回数据
     content = MethodClass.handler(data)
-    # 组织业务数据
+    # 组织业务数据，body里的data原封不动的交给类去处理
     rep = {
         "isBase64Encoded": "False",
         "statusCode": "200",
