@@ -15,9 +15,9 @@ def handler(event, context):
     class_dir = queryMethod + '.'
     class_name = eval(class_dir + queryMethod)
     # 实例化对应的类
-    MethodClass = class_name()
+    MethodClass = class_name(event, context, data)
     # 完成业务，返回数据
-    content = MethodClass.handler(data)
+    content = MethodClass.handler()
     # 组织业务数据，body里的data原封不动的交给类去处理
     rep = {
         "isBase64Encoded": "False",
